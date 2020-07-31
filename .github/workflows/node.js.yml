@@ -10,6 +10,14 @@ on:
     branches: [ master ]
 
 jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run Snyk to check for vulnerabilities
+      uses: snyk/actions/node@master
+      env:
+        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
   build:
 
     runs-on: ubuntu-latest
@@ -44,14 +52,7 @@ jobs:
     - run: npm ci --only=production
     - run: npm run build --if-present
     - run: npm test
-  security:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Run Snyk to check for vulnerabilities
-      uses: snyk/actions/node@master
-      env:
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
 env:
     CI: true
     SNYK_TOKEN: b749fb89-9b9b-48e4-9857-9bb4004fd552
