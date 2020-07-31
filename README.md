@@ -17,7 +17,7 @@ Any web technology can be used but I am thinking about using NodeJS ecosystem.
 * NodeJS
 * MySQL/MongoDB/Firebase
 
->## 💻&nbsp; GETTING STARTED
+>## 💻&nbsp; GETTING STARTED&nbsp;&nbsp;&nbsp; ([Learn Github Basics](https://harshkapadia2.github.io/git_basics/))
 
 => **Fork <a href=https://github.com/LetsUpgrade/NEW-VIEW><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a>this repository to start contributing.**
 
