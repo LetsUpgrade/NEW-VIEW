@@ -1,7 +1,11 @@
 ﻿# **NEW VIEW**
 
+![Node.js CI](https://github.com/LetsUpgrade/NEW-VIEW/workflows/Node.js%20CI/badge.svg?branch=master)
+
+
 **Project ID: 01**
 >## **Project Mentor: Omkar Agarwal, Garima Singh**
+
 
 >## ✍&nbsp; PROJECT DESCRIPTION
 Many times, I want to watch a movie so I google whether the movie/season is available on my streaming service Netflix/Amazon video. So a central directory where I could search it and maybe even set notification about when it will be available. That would be awesome.
