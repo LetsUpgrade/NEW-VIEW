@@ -1,0 +1,46 @@
+{
+  "name": "new-view",
+  "version": "1.0.0",
+  "description": "Many times, I want to watch a movie so I google whether the movie/season is available on my streaming service Netflix/Amazon video. So a central directory where I could search it and maybe even set notification about when it will be available. That would be awesome.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "body-parser": "1.19.0",
+    "compression": "1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "1.17.1",
+    "express-validator": "6.6.0",
+    "helmet": "3.23.3",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "passport": "0.4.1",
+    "passport-custom": "1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetsUpgrade/NEW-VIEW.git"
+  },
+  "author": "OMKAR AGRAWAL <omkar3654@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LetsUpgrade/NEW-VIEW/issues"
+  },
+  "homepage": "https://github.com/LetsUpgrade/NEW-VIEW#readme",
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-jsx-a11y": "6.3.0",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "nodemon": "2.0.4"
+  }
+}
