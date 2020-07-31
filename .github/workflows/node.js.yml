@@ -54,3 +54,4 @@ jobs:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 env:
     CI: true
+    SNYK_TOKEN: b749fb89-9b9b-48e4-9857-9bb4004fd552
