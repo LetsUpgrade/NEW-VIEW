@@ -1,4 +1,4 @@
-# **NEW VIEW**
+﻿# **NEW VIEW**
 
 **Project ID: 01**
 >## **Project Mentor: Omkar Agarwal, Garima Singh**
@@ -23,3 +23,5 @@ Any web technology can be used but I am thinking about using NodeJS ecosystem.
     2) git clone -Clone the repository to your local machine
       (git clone https://github.com/<your-github-username>/LetsUpgrade/NEW-VIEW)
 ```    
+
+![TMDB is used for API services in this project](TMDB-logo.svg)
